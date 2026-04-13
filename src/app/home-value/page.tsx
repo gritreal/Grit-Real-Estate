@@ -211,7 +211,7 @@ export default function HomeValuePage() {
                                     </div>
                                     <h2 className="text-4xl font-serif font-bold mb-4">Request Received!</h2>
                                     <p className="text-xl text-white/80 mb-8 max-w-lg mx-auto">
-                                        Thank you, we've received your request for {address}. A Grit Real Estate expert will reach out shortly with your detailed market analysis.
+                                        Thank you, we&apos;ve received your request for {address}. A Grit Real Estate expert will reach out shortly with your detailed market analysis.
                                     </p>
                                     <button 
                                         onClick={() => setIsSubmitted(false)}
@@ -230,10 +230,10 @@ export default function HomeValuePage() {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-16">
                             <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary mb-4">
-                                Why Know Your Home's Value?
+                                Why Know Your Home&apos;s Value?
                             </h2>
                             <p className="text-lg text-brand-text/70 max-w-2xl mx-auto">
-                                In the Kansas and Missouri market, timing and data are everything. Get a professional analysis of your property's worth.
+                                In the Kansas and Missouri market, timing and data are everything. Get a professional analysis of your property&apos;s worth.
                             </p>
                         </div>
 

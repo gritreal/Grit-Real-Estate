@@ -86,7 +86,7 @@ export default function ReviewsPage() {
                                 Built on Grit. <br /> Proven by <span className="text-[#C9A227]">Results.</span>
                             </h1>
                             <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
-                                Don't just take our word for it. See why homeowners across Kansas and Missouri trust our hardworking experts.
+                                Don&apos;t just take our word for it. See why homeowners across Kansas and Missouri trust our hardworking experts.
                             </p>
                         </motion.div>
                     </div>
@@ -139,7 +139,7 @@ export default function ReviewsPage() {
                                     </div>
 
                                     <p className="text-brand-primary leading-relaxed mb-8 flex-grow italic text-lg">
-                                        "{review.text}"
+                                        &quot;{review.text}&quot;
                                     </p>
 
                                     <div className="pt-8 border-t border-brand-bg flex items-center justify-between mt-auto">
@@ -177,7 +177,7 @@ export default function ReviewsPage() {
                             Ready to be our next success story?
                         </h2>
                         <p className="text-xl text-brand-text/70 mb-10">
-                            Experience the Grit Real Estate difference firsthand. Whether buying or selling, we're here to work harder for you.
+                            Experience the Grit Real Estate difference firsthand. Whether buying or selling, we&apos;re here to work harder for you.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
                             <Link
@@ -190,7 +190,7 @@ export default function ReviewsPage() {
                                 href="/home-value"
                                 className="px-8 py-4 bg-white text-brand-primary border border-brand-primary/10 rounded-full font-bold text-lg hover:bg-brand-bg transition-all"
                             >
-                                What's My Home Worth?
+                                What&apos;s My Home Worth?
                             </Link>
                         </div>
                     </div>

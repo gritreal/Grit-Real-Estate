@@ -26,7 +26,7 @@ export default function PodcastPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-5xl md:text-7xl font-serif font-bold text-white mb-6"
                     >
-                        She's Got Grit
+                        She&apos;s Got Grit
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -59,7 +59,7 @@ export default function PodcastPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/60 to-transparent" />
                             <div className="absolute bottom-8 left-8 right-8 text-white">
                                 <p className="text-sm font-bold uppercase tracking-widest text-brand-secondary mb-2">Featured Show</p>
-                                <h3 className="text-3xl font-serif font-bold">She's Got Grit</h3>
+                                <h3 className="text-3xl font-serif font-bold">She&apos;s Got Grit</h3>
                             </div>
                         </div>
                         {/* Decorative elements */}
@@ -80,7 +80,7 @@ export default function PodcastPage() {
                                 Join us every week as we dive into the raw, honest side of the real estate industry. From navigating tough markets to building a business from the ground up, we share the stories that define what it means to have true grit.
                             </p>
                             <p>
-                                Whether you're a first-time homebuyer, a seasoned investor, or just love a good story of hardworking folks, this show is for you.
+                                Whether you&apos;re a first-time homebuyer, a seasoned investor, or just love a good story of hardworking folks, this show is for you.
                             </p>
                         </div>
 
