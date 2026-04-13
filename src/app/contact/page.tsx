@@ -42,12 +42,14 @@ export default function ContactPage() {
                         className="bg-white dark:bg-brand-primary p-8 md:p-12 rounded-3xl shadow-2xl border border-brand-bg dark:border-brand-secondary"
                     >
                         <h2 className="text-3xl font-serif font-bold text-brand-primary mb-8 dark:text-white">Send Us a Message</h2>
-                        <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                        <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
+                            <input type="hidden" name="access_key" value="f370555b-6ced-4107-b42d-e2e237e6a434" />
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label htmlFor="name" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Display Name</label>
                                     <input
                                         type="text"
+                                        name="name"
                                         id="name"
                                         placeholder="John Doe"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none"
@@ -58,6 +60,7 @@ export default function ContactPage() {
                                     <label htmlFor="email" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Lead Email</label>
                                     <input
                                         type="email"
+                                        name="email"
                                         id="email"
                                         placeholder="john@example.com"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none"
@@ -71,6 +74,7 @@ export default function ContactPage() {
                                     <label htmlFor="phone" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Phone</label>
                                     <input
                                         type="tel"
+                                        name="phone"
                                         id="phone"
                                         placeholder="+1 (555) 000-0000"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none"
@@ -80,6 +84,7 @@ export default function ContactPage() {
                                     <label htmlFor="location" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Location</label>
                                     <input
                                         type="text"
+                                        name="location"
                                         id="location"
                                         placeholder="City, State"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none"
@@ -91,6 +96,7 @@ export default function ContactPage() {
                                 <div className="space-y-2">
                                     <label htmlFor="goal" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Primary Goal</label>
                                     <select
+                                        name="goal"
                                         id="goal"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none appearance-none cursor-pointer"
                                     >
@@ -104,6 +110,7 @@ export default function ContactPage() {
                                 <div className="space-y-2">
                                     <label htmlFor="tone" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">Tone</label>
                                     <select
+                                        name="tone"
                                         id="tone"
                                         className="w-full px-5 py-4 rounded-xl bg-brand-bg dark:bg-brand-secondary border-none focus:ring-2 focus:ring-brand-secondary transition-all outline-none appearance-none cursor-pointer"
                                     >
@@ -117,6 +124,7 @@ export default function ContactPage() {
                             <div className="space-y-2">
                                 <label htmlFor="message" className="text-sm font-semibold text-brand-text/70 dark:text-brand-white">How can we help?</label>
                                 <textarea
+                                    name="message"
                                     id="message"
                                     rows={4}
                                     placeholder="Tell us about your real estate needs..."

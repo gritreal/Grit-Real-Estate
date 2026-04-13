@@ -110,18 +110,18 @@ function HomeValueContent() {
                                     </div>
 
                                     <form 
-                                        onSubmit={(e) => {
-                                            e.preventDefault();
-                                            setIsSubmitted(true);
-                                        }}
+                                        action="https://api.web3forms.com/submit"
+                                        method="POST"
                                         className="grid grid-cols-1 md:grid-cols-2 gap-6"
                                     >
+                                        <input type="hidden" name="access_key" value="f370555b-6ced-4107-b42d-e2e237e6a434" />
                                         <div className="md:col-span-2">
                                             <label className="block text-sm font-bold text-brand-primary mb-2">Property Address</label>
                                             <div className="relative">
                                                 <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary/40" />
                                                 <input 
-                                                    type="text" 
+                                                    type="text"
+                                                    name="address"
                                                     required 
                                                     value={address}
                                                     onChange={(e) => setAddress(e.target.value)}
@@ -136,7 +136,8 @@ function HomeValueContent() {
                                             <div className="relative">
                                                 <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary/40" />
                                                 <input 
-                                                    type="text" 
+                                                    type="text"
+                                                    name="name"
                                                     required 
                                                     className="w-full pl-12 pr-4 py-4 bg-white border border-brand-primary/10 rounded-2xl focus:ring-2 focus:ring-[#C9A227] focus:border-transparent outline-none transition-all"
                                                     placeholder="Jane Doe"
@@ -149,7 +150,8 @@ function HomeValueContent() {
                                             <div className="relative">
                                                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary/40" />
                                                 <input 
-                                                    type="email" 
+                                                    type="email"
+                                                    name="email"
                                                     required 
                                                     className="w-full pl-12 pr-4 py-4 bg-white border border-brand-primary/10 rounded-2xl focus:ring-2 focus:ring-[#C9A227] focus:border-transparent outline-none transition-all"
                                                     placeholder="jane@example.com"
@@ -162,7 +164,8 @@ function HomeValueContent() {
                                             <div className="relative">
                                                 <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary/40" />
                                                 <input 
-                                                    type="tel" 
+                                                    type="tel"
+                                                    name="phone"
                                                     required 
                                                     className="w-full pl-12 pr-4 py-4 bg-white border border-brand-primary/10 rounded-2xl focus:ring-2 focus:ring-[#C9A227] focus:border-transparent outline-none transition-all"
                                                     placeholder="(316) 555-0123"
@@ -174,7 +177,7 @@ function HomeValueContent() {
                                             <label className="block text-sm font-bold text-brand-primary mb-2">Timeline to Sell</label>
                                             <div className="relative">
                                                 <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary/40" />
-                                                <select className="w-full pl-12 pr-4 py-4 bg-white border border-brand-primary/10 rounded-2xl focus:ring-2 focus:ring-[#C9A227] focus:border-transparent outline-none appearance-none transition-all">
+                                                <select name="timeline" className="w-full pl-12 pr-4 py-4 bg-white border border-brand-primary/10 rounded-2xl focus:ring-2 focus:ring-[#C9A227] focus:border-transparent outline-none appearance-none transition-all">
                                                     <option>Immediately</option>
                                                     <option>1-3 Months</option>
                                                     <option>3-6 Months</option>
