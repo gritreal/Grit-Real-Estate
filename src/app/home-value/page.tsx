@@ -6,8 +6,9 @@ import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Search, Home, TrendingUp, Calculator, MapPin, User, Mail, Phone, Calendar, Send, CheckCircle2 } from "lucide-react";
+import { Suspense } from "react";
 
-export default function HomeValuePage() {
+function HomeValueContent() {
     const searchParams = useSearchParams();
     const [address, setAddress] = useState("");
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -258,6 +259,14 @@ export default function HomeValuePage() {
                 </section>
             </main>
         </div>
+    );
+}
+
+export default function HomeValuePage() {
+    return (
+        <Suspense fallback={<div className="min-h-screen bg-brand-primary"></div>}>
+            <HomeValueContent />
+        </Suspense>
     );
 }
 
