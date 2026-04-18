@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-2xl font-semibold text-brand-primary mt-8 mb-4">1. Introduction</h2>
             <p>
-              Grit Real Estate ("we," "our," or "us") respects your privacy and is committed to protecting it through our compliance with this policy. This policy describes the types of information we may collect from you or that you may provide when you visit our website (the "Website") and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+              Grit Real Estate (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy and is committed to protecting it through our compliance with this policy. This policy describes the types of information we may collect from you or that you may provide when you visit our website (the &quot;Website&quot;) and our practices for collecting, using, maintaining, protecting, and disclosing that information.
             </p>
             <p>
               We operate as a licensed real estate brokerage in the states of Kansas and Missouri and comply with relevant state and federal regulations regarding consumer data and telecommunications.
@@ -60,8 +60,8 @@ export default function PrivacyPolicyPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li><strong>Prior Express Consent:</strong> We only send text messages to users who have explicitly opted in via our website forms or direct communication. Consent is not a condition of purchasing any property, goods, or services.</li>
-              <li><strong>Opt-Out Instructions:</strong> You may opt out of receiving text messages at any time by replying "STOP" to any of our messages. Upon receiving a "STOP" request, we will send one final confirmation message and will no longer send you text messages to that number.</li>
-              <li><strong>Help & Support:</strong> Reply "HELP" to any of our messages for assistance or contact us directly at realestategrit@gmail.com.</li>
+              <li><strong>Opt-Out Instructions:</strong> You may opt out of receiving text messages at any time by replying &quot;STOP&quot; to any of our messages. Upon receiving a &quot;STOP&quot; request, we will send one final confirmation message and will no longer send you text messages to that number.</li>
+              <li><strong>Help &amp; Support:</strong> Reply &quot;HELP&quot; to any of our messages for assistance or contact us directly at realestategrit@gmail.com.</li>
               <li><strong>Rates:</strong> Standard message and data rates may apply.</li>
             </ul>
           </section>
