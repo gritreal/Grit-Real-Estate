@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-brand-primary mt-8 mb-4">4. SMS/Text Messaging Policy & TCPA Compliance</h2>
+            <h2 className="text-2xl font-semibold text-brand-primary mt-8 mb-4">4. SMS/Text Messaging Policy &amp; TCPA Compliance</h2>
             <p>
               By providing your telephone number and opting in, you agree to receive text messages (SMS/MMS) from Grit Real Estate for real estate inquiries, property updates, and service-related notifications. We adhere strictly to the Telephone Consumer Protection Act (TCPA) and A2P 10DLC regulations:
             </p>
