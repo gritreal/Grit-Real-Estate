@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Clock, Send, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function ContactPage() {
     return (
         <div className="flex flex-col min-h-screen bg-brand-bg dark:bg-brand-primary">
@@ -145,6 +145,20 @@ export default function ContactPage() {
                                 </label>
                             </div>
 
+                            <div className="flex items-start space-x-3 p-4 bg-brand-bg/50 dark:bg-brand-secondary/50 rounded-xl border border-brand-bg dark:border-brand-secondary">
+                                <input
+                                    type="checkbox"
+                                    id="tcpa-optin"
+                                    name="tcpa_optin"
+                                    value="agreed"
+                                    className="w-5 h-5 rounded text-brand-secondary focus:ring-brand-secondary cursor-pointer mt-1"
+                                    required
+                                />
+                                <label htmlFor="tcpa-optin" className="text-xs font-medium text-brand-text/80 dark:text-brand-white leading-relaxed cursor-pointer hover:text-brand-primary transition-colors">
+                                    I agree to be contacted by Grit Real Estate via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-brand-primary dark:text-[#C9A227] underline">Privacy Policy</Link>.
+                                </label>
+                            </div>
+
                             <button
                                 type="submit"
                                 className="w-full py-5 bg-[#C9A227] text-black font-bold text-lg rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2 group shadow-xl"
@@ -153,9 +167,6 @@ export default function ContactPage() {
                                 <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                             </button>
 
-                            <p className="text-xs text-brand-text/50 dark:text-brand-white/50 text-center mt-4">
-                                By submitting this form, you agree to being contacted by Grit Real Estate regarding your inquiry.
-                            </p>
                         </form>
                     </motion.div>
 

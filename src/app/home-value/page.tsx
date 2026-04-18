@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 import { Search, Home, TrendingUp, Calculator, MapPin, User, Mail, Phone, Calendar, Send, CheckCircle2 } from "lucide-react";
 import { Suspense } from "react";
@@ -188,6 +189,19 @@ function HomeValueContent() {
                                         </div>
 
                                         <div className="md:col-span-2 mt-4">
+                                            <div className="flex items-start space-x-3 p-4 bg-white/50 border border-brand-primary/10 rounded-2xl mb-6">
+                                                <input
+                                                    type="checkbox"
+                                                    id="tcpa-optin"
+                                                    name="tcpa_optin"
+                                                    value="agreed"
+                                                    className="w-5 h-5 rounded text-brand-primary focus:ring-brand-primary cursor-pointer mt-1"
+                                                    required
+                                                />
+                                                <label htmlFor="tcpa-optin" className="text-xs font-medium text-brand-text/80 leading-relaxed cursor-pointer hover:text-brand-primary transition-colors">
+                                                    I agree to be contacted by Grit Real Estate via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-[#C9A227] underline">Privacy Policy</Link>.
+                                                </label>
+                                            </div>
                                             <button 
                                                 type="submit"
                                                 className="w-full py-5 bg-brand-primary text-white rounded-2xl font-bold text-lg hover:bg-brand-primary/90 transition-all shadow-xl flex items-center justify-center gap-3"
@@ -195,9 +209,6 @@ function HomeValueContent() {
                                                 <Send className="w-5 h-5" />
                                                 Get My Custom Valuation
                                             </button>
-                                            <p className="text-center text-xs text-brand-text/50 mt-4 px-8">
-                                                By submitting, you agree to be contacted via email/phone regarding your inquiry.
-                                            </p>
                                         </div>
                                     </form>
                                 </motion.div>
