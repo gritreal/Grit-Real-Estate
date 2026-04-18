@@ -26,11 +26,11 @@ export default function Footer() {
                         Hardworking Real Estate Experts for the Kansas and Missouri Market. We bring grit, integrity, and deep local knowledge to every transaction.
                     </p>
                     <div className="flex space-x-4">
-                        <SocialIcon href="https://facebook.com" icon={<Facebook className="w-5 h-5" />} />
-                        <SocialIcon href="https://instagram.com" icon={<Instagram className="w-5 h-5" />} />
+                        <SocialIcon href="https://www.facebook.com/GRITREAL" icon={<Facebook className="w-5 h-5" />} />
+                        <SocialIcon href="https://www.instagram.com/jpgrit/tagged/" icon={<Instagram className="w-5 h-5" />} />
                         <SocialIcon href="https://linkedin.com" icon={<Linkedin className="w-5 h-5" />} />
                         <SocialIcon href="https://youtube.com/@shesgotgrit" icon={<Youtube className="w-5 h-5" />} />
-                        <SocialIcon href="https://google.com" icon={<GoogleIcon className="w-5 h-5" />} />
+                        <SocialIcon href="https://g.page/r/CdjGtjkD6qnhEBM/review" icon={<GoogleIcon className="w-5 h-5" />} />
                     </div>
                 </div>
 

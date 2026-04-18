@@ -200,19 +200,19 @@ export default function ContactPage() {
                         <div className="pt-8 border-t border-brand-bg dark:border-brand-secondary">
                             <h4 className="font-bold text-brand-primary mb-4 dark:text-white uppercase tracking-wider text-sm">Follow Our Journey</h4>
                             <div className="flex space-x-4">
-                                <a href="https://facebook.com/your-page" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
+                                <a href="https://www.facebook.com/GRITREAL" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
                                     <Facebook className="w-5 h-5" />
                                 </a>
-                                <a href="https://instagram.com/your-page" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
+                                <a href="https://www.instagram.com/jpgrit/tagged/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
                                     <Instagram className="w-5 h-5" />
                                 </a>
                                 <a href="https://linkedin.com/company/your-page" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
                                     <Linkedin className="w-5 h-5" />
                                 </a>
-                                <a href="https://youtube.com/@your-channel" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
+                                <a href="https://youtube.com/@shesgotgrit" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
                                     <Youtube className="w-5 h-5" />
                                 </a>
-                                <a href="https://google.com/search?q=your-business" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
+                                <a href="https://g.page/r/CdjGtjkD6qnhEBM/review" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg dark:bg-brand-secondary flex items-center justify-center hover:bg-brand-secondary hover:-translate-y-1 transition-all cursor-pointer text-brand-primary dark:text-white hover:text-white shadow-sm">
                                     <GoogleIcon className="w-[18px] h-[18px]" />
                                 </a>
                             </div>
