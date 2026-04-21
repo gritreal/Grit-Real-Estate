@@ -199,7 +199,7 @@ function HomeValueContent() {
                                                     required
                                                 />
                                                 <label htmlFor="tcpa-optin" className="text-xs font-medium text-brand-text/80 leading-relaxed cursor-pointer hover:text-brand-primary transition-colors">
-                                                    I agree to be contacted by Grit Real Estate via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-[#C9A227] underline">Privacy Policy</Link>.
+                                                    I agree to be contacted by Grit Real Estate LLC via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-[#C9A227] underline">Privacy Policy</Link>.
                                                 </label>
                                             </div>
                                             <button 

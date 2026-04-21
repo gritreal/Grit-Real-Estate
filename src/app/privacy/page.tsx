@@ -107,6 +107,18 @@ export default function PrivacyPolicyPage() {
             </div>
           </section>
 
+          <section>
+            <h2 className="text-2xl font-semibold text-brand-primary mt-8 mb-4">Terms and Conditions</h2>
+            <div className="space-y-4">
+              <p>1. We use SMS to confirm appointments, send reminders, and notify clients of schedule updates or important changes.</p>
+              <p>2. You can cancel the SMS service at any time. Just text &quot;STOP&quot;. After you send the SMS message &quot;STOP&quot; to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time, and we will start sending SMS messages to you again.</p>
+              <p>3. If you are experiencing issues with the messaging program, you can reply with the keyword &quot;HELP&quot; for more assistance, or you can get help directly at <a href="mailto:realestategrit@gmail.com" className="text-brand-primary hover:underline">realestategrit@gmail.com</a>.</p>
+              <p>4. Carriers are not liable for delayed or undelivered messages.</p>
+              <p>5. As always, message and data rates may apply for any messages sent to you from us and to us from you. Message frequency may vary. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</p>
+              <p>6. If you have any questions regarding privacy, please read our privacy policy: <a href="https://www.grit-real-estate.com/privacy" className="text-brand-primary hover:underline">https://www.grit-real-estate.com/privacy</a>.</p>
+            </div>
+          </section>
+
         </div>
       </div>
     </div>

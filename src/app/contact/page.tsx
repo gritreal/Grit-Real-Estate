@@ -145,18 +145,10 @@ export default function ContactPage() {
                                 </label>
                             </div>
 
-                            <div className="flex items-start space-x-3 p-4 bg-brand-bg/50 dark:bg-brand-secondary/50 rounded-xl border border-brand-bg dark:border-brand-secondary">
-                                <input
-                                    type="checkbox"
-                                    id="tcpa-optin"
-                                    name="tcpa_optin"
-                                    value="agreed"
-                                    className="w-5 h-5 rounded text-brand-secondary focus:ring-brand-secondary cursor-pointer mt-1"
-                                    required
-                                />
-                                <label htmlFor="tcpa-optin" className="text-xs font-medium text-brand-text/80 dark:text-brand-white leading-relaxed cursor-pointer hover:text-brand-primary transition-colors">
-                                    I agree to be contacted by Grit Real Estate via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-brand-primary dark:text-[#C9A227] underline">Privacy Policy</Link>.
-                                </label>
+                            <div className="p-4 bg-brand-bg/50 dark:bg-brand-secondary/50 rounded-xl border border-brand-bg dark:border-brand-secondary">
+                                <p className="text-xs font-medium text-brand-text/80 dark:text-brand-white leading-relaxed">
+                                    I agree to be contacted by Grit Real Estate LLC via call, email, and text for real estate services. To opt-out, you can reply &apos;stop&apos; at any time or reply &apos;help&apos; for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. <Link href="/privacy" className="text-brand-primary dark:text-[#C9A227] underline">Privacy Policy</Link>.
+                                </p>
                             </div>
 
                             <button
