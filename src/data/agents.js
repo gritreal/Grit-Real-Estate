@@ -6,7 +6,7 @@ export const agents = [
         location: "Gardner, Kansas",
         phone: "(785) 218-8577",
         email: "realestategrit@gmail.com",
-        image: "/agents/jenna.jpg",
+        image: "/agents/jenna_v2.jpg",
         bio: `Jenna Pearce brings grit, strategy, and local expertise to every transaction. As the founder of Grit Real Estate, she is dedicated to helping hardworking folks navigate the Kansas and Missouri markets with precision and integrity.`,
         specialties: ["Residential Sales", "Market Strategy", "Local Expertise"],
         experience: "15+ Years"
@@ -18,7 +18,7 @@ export const agents = [
         location: "KC Metro",
         phone: "660-631-7138",
         email: "jrussell.grit@gmail.com",
-        image: "/agents/jasmine.jpg",
+        image: "/agents/jasmine_v2.jpg",
         bio: `Jasmine Russell is a dedicated real estate professional with Grit Real Estate, committed to helping clients achieve their homeownership goals.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -30,7 +30,7 @@ export const agents = [
         location: "KC Metro",
         phone: "660-537-1821",
         email: "mreuter.grit@gmail.com",
-        image: "/agents/megan.jpg",
+        image: "/agents/megan_v2.jpg",
         bio: `Megan Reuter is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -42,7 +42,7 @@ export const agents = [
         location: "KC Metro",
         phone: "573-789-7070",
         email: "pbrandt.grit@gmail.com",
-        image: "/agents/pamela.jpg",
+        image: "/agents/pamela_v2.jpg",
         bio: `Pamela Brandt is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -54,7 +54,7 @@ export const agents = [
         location: "KC Metro",
         phone: "816-385-0986",
         email: "jgoodwin.grit@gmail.com",
-        image: "/agents/jessica.jpg",
+        image: "/agents/jessica_v2.jpg",
         bio: `Jessica Goodwin is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -66,7 +66,7 @@ export const agents = [
         location: "KC Metro",
         phone: "916-917-8611",
         email: "julialyash.grit@gmail.com",
-        image: "/agents/julia.jpg",
+        image: "/agents/julia_v2.jpg",
         bio: `Julia Lyashevskiy is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -78,7 +78,7 @@ export const agents = [
         location: "KC Metro",
         phone: "913-787-2934",
         email: "rrolfe.grit@gmail.com",
-        image: "/agents/rachel.jpg",
+        image: "/agents/rachel_v2.jpg",
         bio: `Rachel Rolfe is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -102,7 +102,7 @@ export const agents = [
         location: "KC Metro",
         phone: "816-589-3827",
         email: "lindseyb.grit@gmail.com",
-        image: "/agents/lindsey.jpg",
+        image: "/agents/lindsey_v2.jpg",
         bio: `Lindsey Good is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -114,7 +114,7 @@ export const agents = [
         location: "KC Metro",
         phone: "785-917-8579",
         email: "goodwind.grit@gmail.com",
-        image: "/agents/dakota.jpg",
+        image: "/agents/dakota_v2.jpg",
         bio: `Dakota Goodwin is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
