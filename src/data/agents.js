@@ -90,7 +90,7 @@ export const agents = [
         location: "KC Metro",
         phone: "785-802-9098",
         email: "kpayne.grit@gmail.com",
-        image: "/agents/katie.jpg",
+        image: "/images/logo.png",
         bio: `Katie Payne is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
@@ -126,7 +126,7 @@ export const agents = [
         location: "KC Metro",
         phone: "785-218-8577",
         email: "gritcontracts@gmail.com",
-        image: "/agents/krista.jpg",
+        image: "/images/logo.png",
         bio: `Krista Wilcox is a dedicated professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
         specialties: ["Marketing", "Contract Coordination"],
         experience: "5+ Years"
