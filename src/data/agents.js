@@ -51,7 +51,9 @@ Whether working with buyers, sellers, or investors, she brings a steady approach
         phone: "573-995-3068",
         email: "pbrandt.grit@gmail.com",
         image: "/agents/pamela_v2.jpg",
-        bio: `Pamela Brandt is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
+        bio: `Pamela Brandt is a driven real estate professional serving clients across Kansas and Missouri. With a strong work ethic and a people-first mindset, she helps buyers, sellers, and investors navigate the market with confidence.
+
+Known for her attention to detail and clear communication, Pamela is committed to making every transaction smooth, strategic, and successful. Backed by Grit Real Estate, she brings hustle, integrity, and a passion for helping clients win in every season of real estate.`,
         specialties: ["Residential Sales"],
         experience: "5+ Years"
     },
