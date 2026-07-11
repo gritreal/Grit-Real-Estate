@@ -79,18 +79,7 @@ Known for her attention to detail and clear communication, Pamela is committed t
         specialties: ["Residential Sales"],
         experience: "5+ Years"
     },
-    {
-        slug: "katie-payne",
-        name: "Katie Payne",
-        title: "Associate",
-        location: "Kansas",
-        phone: "785-629-3589",
-        email: "kpayne.grit@gmail.com",
-        image: "/images/logo.png",
-        bio: `Katie Payne is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
-        specialties: ["Residential Sales"],
-        experience: "5+ Years"
-    },
+
     {
         slug: "lindsey-good",
         name: "Lindsey Good",
