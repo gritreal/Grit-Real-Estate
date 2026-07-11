@@ -16,20 +16,6 @@ She’s built her business the same way she lives her life: with grit, faith, an
         experience: "15+ Years"
     },
     {
-        slug: "jasmine-russell",
-        name: "Jasmine Russell",
-        title: "Realtor",
-        location: "Kansas and Missouri",
-        phone: "660-333-7927",
-        email: "jrussell.grit@gmail.com",
-        image: "/agents/jasmine_v2.jpg",
-        bio: `Jasmine Russell is passionate about helping people find not just a house, but a place to truly call home. Serving both Kansas and Missouri with Grit Real Estate, she focuses on building real relationships with her clients and making sure they feel supported every step of the way.
-
-Her approach is centered on listening, understanding your goals, and creating a smooth, stress-free experience. Jasmine brings patience, positivity, and dedication to every transaction—because to her, it’s always about more than just real estate.`,
-        specialties: ["Residential Sales"],
-        experience: "5+ Years"
-    },
-    {
         slug: "megan-reuter",
         name: "Megan Reuter",
         title: "Realtor",
@@ -117,28 +103,5 @@ Known for her attention to detail and clear communication, Pamela is committed t
         specialties: ["Residential Sales"],
         experience: "5+ Years"
     },
-    {
-        slug: "dakota-goodwin",
-        name: "Dakota Goodwin",
-        title: "Associate",
-        location: "Kansas",
-        phone: "785-369-9645",
-        email: "goodwind.grit@gmail.com",
-        image: "/agents/dakota_v2.jpg",
-        bio: `Dakota Goodwin is a dedicated real estate professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
-        specialties: ["Residential Sales"],
-        experience: "5+ Years"
-    },
-    {
-        slug: "krista-wilcox",
-        name: "Krista Wilcox",
-        title: "Marketing Assistant",
-        location: "KC Metro",
-        phone: "785-218-8577",
-        email: "gritcontracts@gmail.com",
-        image: "/images/logo.png",
-        bio: `Krista Wilcox is a dedicated professional with Grit Real Estate, committed to providing hardworking folks in Kansas and Missouri with expert guidance and integrity.`,
-        specialties: ["Marketing", "Contract Coordination"],
-        experience: "5+ Years"
-    },
+
 ];
