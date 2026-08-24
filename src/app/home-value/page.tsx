@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
-import { Search, Home, TrendingUp, Calculator, MapPin, User, Mail, Phone, Calendar, Send, CheckCircle2 } from "lucide-react";
+import { Search, TrendingUp, Calculator, MapPin, User, Mail, Phone, Calendar, Send, CheckCircle2 } from "lucide-react";
 import { Suspense } from "react";
 
 function HomeValueContent() {
@@ -18,7 +18,9 @@ function HomeValueContent() {
     useEffect(() => {
         const addrParam = searchParams.get("address");
         if (addrParam) {
-            setAddress(addrParam);
+            setTimeout(() => {
+                setAddress(addrParam);
+            }, 0);
             // Smooth scroll to form if address is provided
             setTimeout(() => {
                 formRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });

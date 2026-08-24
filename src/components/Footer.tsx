@@ -43,6 +43,7 @@ export default function Footer() {
                         <li><FooterLink href="/agents">Agents</FooterLink></li>
                         <li><FooterLink href="/home-value">Home Value</FooterLink></li>
                         <li><FooterLink href="/podcast">Podcast</FooterLink></li>
+                        <li><FooterLink href="/blog">Blog</FooterLink></li>
                         <li><FooterLink href="/contact">Contact</FooterLink></li>
                     </ul>
                 </div>

@@ -50,6 +50,7 @@ export default function Navbar() {
                         <NavLink href="/home-value">Home Value</NavLink>
                         <NavLink href="/podcast">Podcast</NavLink>
                         <NavLink href="/reviews">Reviews</NavLink>
+                        <NavLink href="/blog">Blog</NavLink>
                         <NavLink href="/contact">Contact</NavLink>
                         <Link
                             href="/contact"
@@ -87,6 +88,9 @@ export default function Navbar() {
                         </MobileNavLink>
                         <MobileNavLink href="/reviews" onClick={() => setIsMobileMenuOpen(false)}>
                             Reviews
+                        </MobileNavLink>
+                        <MobileNavLink href="/blog" onClick={() => setIsMobileMenuOpen(false)}>
+                            Blog
                         </MobileNavLink>
                         <MobileNavLink href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                             Contact

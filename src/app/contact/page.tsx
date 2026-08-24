@@ -238,7 +238,7 @@ function ContactInfoItem({
     detail: string;
     href?: string;
 }) {
-    const Content = () => (
+    const content = (
         <div className="flex items-start space-x-4 group">
             <div className="p-3 bg-brand-bg dark:bg-brand-secondary rounded-xl group-hover:scale-110 transition-transform">
                 {icon}
@@ -253,12 +253,12 @@ function ContactInfoItem({
     if (href) {
         return (
             <a href={href} className="block hover:opacity-80 transition-opacity">
-                <Content />
+                {content}
             </a>
         );
     }
 
-    return <Content />;
+    return content;
 }
 
 function GoogleIcon({ className }: { className?: string }) {
